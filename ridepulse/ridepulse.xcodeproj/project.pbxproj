@@ -1,0 +1,748 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA000001AAAA000100000002 /* RidePulseWidgets.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = AA000001AAAA000100000011 /* RidePulseWidgets.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AA000001AAAA000100000003 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE5490B82F38CD22007E3B1A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA000001AAAA000100000010;
+			remoteInfo = RidePulseWidgetsExtension;
+		};
+		DE5490D42F38CD23007E3B1A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE5490B82F38CD22007E3B1A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE5490BF2F38CD22007E3B1A;
+			remoteInfo = ridepulse;
+		};
+		DE5490DE2F38CD23007E3B1A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE5490B82F38CD22007E3B1A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE5490BF2F38CD22007E3B1A;
+			remoteInfo = ridepulse;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AA000001AAAA000100000001 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				AA000001AAAA000100000002 /* RidePulseWidgets.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		AA000001AAAA000100000011 /* RidePulseWidgets.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = RidePulseWidgets.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE5490C02F38CD22007E3B1A /* ridepulse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ridepulse.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE5490D32F38CD23007E3B1A /* ridepulseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ridepulseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE5490DD2F38CD23007E3B1A /* ridepulseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ridepulseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		AA000001AAAA000100000020 /* RidePulseWidgets */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = RidePulseWidgets;
+			sourceTree = "<group>";
+		};
+		DE5490C22F38CD22007E3B1A /* ridepulse */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ridepulse;
+			sourceTree = "<group>";
+		};
+		DE5490D62F38CD23007E3B1A /* ridepulseTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ridepulseTests;
+			sourceTree = "<group>";
+		};
+		DE5490E02F38CD23007E3B1A /* ridepulseUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ridepulseUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA000001AAAA000100000030 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE5490BD2F38CD22007E3B1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE5490D02F38CD23007E3B1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE5490DA2F38CD23007E3B1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DE5490B72F38CD22007E3B1A = {
+			isa = PBXGroup;
+			children = (
+				DE5490C22F38CD22007E3B1A /* ridepulse */,
+				AA000001AAAA000100000020 /* RidePulseWidgets */,
+				DE5490D62F38CD23007E3B1A /* ridepulseTests */,
+				DE5490E02F38CD23007E3B1A /* ridepulseUITests */,
+				DE5490C12F38CD22007E3B1A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DE5490C12F38CD22007E3B1A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DE5490C02F38CD22007E3B1A /* ridepulse.app */,
+				DE5490D32F38CD23007E3B1A /* ridepulseTests.xctest */,
+				DE5490DD2F38CD23007E3B1A /* ridepulseUITests.xctest */,
+				AA000001AAAA000100000011 /* RidePulseWidgets.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA000001AAAA000100000010 /* RidePulseWidgetsExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA000001AAAA000100000060 /* Build configuration list for PBXNativeTarget "RidePulseWidgetsExtension" */;
+			buildPhases = (
+				AA000001AAAA000100000031 /* Sources */,
+				AA000001AAAA000100000030 /* Frameworks */,
+				AA000001AAAA000100000032 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				AA000001AAAA000100000020 /* RidePulseWidgets */,
+			);
+			name = RidePulseWidgetsExtension;
+			packageProductDependencies = (
+			);
+			productName = RidePulseWidgetsExtension;
+			productReference = AA000001AAAA000100000011 /* RidePulseWidgets.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		DE5490BF2F38CD22007E3B1A /* ridepulse */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE5490E72F38CD23007E3B1A /* Build configuration list for PBXNativeTarget "ridepulse" */;
+			buildPhases = (
+				DE5490BC2F38CD22007E3B1A /* Sources */,
+				DE5490BD2F38CD22007E3B1A /* Frameworks */,
+				DE5490BE2F38CD22007E3B1A /* Resources */,
+				AA000001AAAA000100000001 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA000001AAAA000100000004 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				DE5490C22F38CD22007E3B1A /* ridepulse */,
+			);
+			name = ridepulse;
+			packageProductDependencies = (
+			);
+			productName = ridepulse;
+			productReference = DE5490C02F38CD22007E3B1A /* ridepulse.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DE5490D22F38CD23007E3B1A /* ridepulseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE5490EA2F38CD23007E3B1A /* Build configuration list for PBXNativeTarget "ridepulseTests" */;
+			buildPhases = (
+				DE5490CF2F38CD23007E3B1A /* Sources */,
+				DE5490D02F38CD23007E3B1A /* Frameworks */,
+				DE5490D12F38CD23007E3B1A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE5490D52F38CD23007E3B1A /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				DE5490D62F38CD23007E3B1A /* ridepulseTests */,
+			);
+			name = ridepulseTests;
+			packageProductDependencies = (
+			);
+			productName = ridepulseTests;
+			productReference = DE5490D32F38CD23007E3B1A /* ridepulseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DE5490DC2F38CD23007E3B1A /* ridepulseUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE5490ED2F38CD23007E3B1A /* Build configuration list for PBXNativeTarget "ridepulseUITests" */;
+			buildPhases = (
+				DE5490D92F38CD23007E3B1A /* Sources */,
+				DE5490DA2F38CD23007E3B1A /* Frameworks */,
+				DE5490DB2F38CD23007E3B1A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE5490DF2F38CD23007E3B1A /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				DE5490E02F38CD23007E3B1A /* ridepulseUITests */,
+			);
+			name = ridepulseUITests;
+			packageProductDependencies = (
+			);
+			productName = ridepulseUITests;
+			productReference = DE5490DD2F38CD23007E3B1A /* ridepulseUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DE5490B82F38CD22007E3B1A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					AA000001AAAA000100000010 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					DE5490BF2F38CD22007E3B1A = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					DE5490D22F38CD23007E3B1A = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = DE5490BF2F38CD22007E3B1A;
+					};
+					DE5490DC2F38CD23007E3B1A = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = DE5490BF2F38CD22007E3B1A;
+					};
+				};
+			};
+			buildConfigurationList = DE5490BB2F38CD22007E3B1A /* Build configuration list for PBXProject "ridepulse" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DE5490B72F38CD22007E3B1A;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = DE5490C12F38CD22007E3B1A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DE5490BF2F38CD22007E3B1A /* ridepulse */,
+				DE5490D22F38CD23007E3B1A /* ridepulseTests */,
+				DE5490DC2F38CD23007E3B1A /* ridepulseUITests */,
+				AA000001AAAA000100000010 /* RidePulseWidgetsExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA000001AAAA000100000032 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE5490BE2F38CD22007E3B1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE5490D12F38CD23007E3B1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE5490DB2F38CD23007E3B1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA000001AAAA000100000031 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE5490BC2F38CD22007E3B1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE5490CF2F38CD23007E3B1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE5490D92F38CD23007E3B1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AA000001AAAA000100000004 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA000001AAAA000100000010 /* RidePulseWidgetsExtension */;
+			targetProxy = AA000001AAAA000100000003 /* PBXContainerItemProxy */;
+		};
+		DE5490D52F38CD23007E3B1A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DE5490BF2F38CD22007E3B1A /* ridepulse */;
+			targetProxy = DE5490D42F38CD23007E3B1A /* PBXContainerItemProxy */;
+		};
+		DE5490DF2F38CD23007E3B1A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DE5490BF2F38CD22007E3B1A /* ridepulse */;
+			targetProxy = DE5490DE2F38CD23007E3B1A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AA000001AAAA000100000050 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6Y5V6L2QYM;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RidePulseWidgetsInfo.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = RidePulseWidgets;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = simpletalk.ridepulse.RidePulseWidgets;
+				PRODUCT_NAME = RidePulseWidgets;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AA000001AAAA000100000051 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6Y5V6L2QYM;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RidePulseWidgetsInfo.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = RidePulseWidgets;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = simpletalk.ridepulse.RidePulseWidgets;
+				PRODUCT_NAME = RidePulseWidgets;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DE5490E52F38CD23007E3B1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DE5490E62F38CD23007E3B1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		DE5490E82F38CD23007E3B1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ridepulse/ridepulse.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ridepulse/Preview Content\"";
+				DEVELOPMENT_TEAM = 6Y5V6L2QYM;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "RidePulseub294 ud30cuc6ccubbf8ud130, uc2ecubc15uacc4, ucf00uc774ub358uc2a4 uc13cuc11cuc640 uc5f0uacb0ud558uae30 uc704ud574 Bluetoothub97c uc0acuc6a9ud569ub2c8ub2e4.";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "ub77cuc774ub529 uae30ub85duc744 uac74uac15 uc571uc5d0uc11c ud655uc778ud560 uc218 uc788uc2b5ub2c8ub2e4.";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "ub77cuc774ub529 uc6b4ub3d9 uae30ub85d, uc2ecubc15uc218, uce7cub85cub9ac, uac70ub9acub97c uac74uac15 uc571uc5d0 uc800uc7a5ud569ub2c8ub2e4.";
+				INFOPLIST_KEY_NSSupportsLiveActivities = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UIBackgroundModes = (
+					"bluetooth-central",
+				);
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = simpletalk.ridepulse;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DE5490E92F38CD23007E3B1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ridepulse/ridepulse.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ridepulse/Preview Content\"";
+				DEVELOPMENT_TEAM = 6Y5V6L2QYM;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "uB77CuC774uB4DCuD380uC2A4uB294 uD30CuC6CCuBBF8uD130, uC2ECuBC15uACC4, uCF00uC774uB358uC2A4 uC13CuC11CuC640 uC5F0uACB0uD558uAE30 uC704uD574 BluetoothuB97C uC0ACuC6A9uD569uB2C8uB2E4.";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "ub77cuc774ub529 uae30ub85duc744 uac74uac15 uc571uc5d0uc11c ud655uc778ud560 uc218 uc788uc2b5ub2c8ub2e4.";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "ub77cuc774ub529 uc6b4ub3d9 uae30ub85d, uc2ecubc15uc218, uce7cub85cub9ac, uac70ub9acub97c uac74uac15 uc571uc5d0 uc800uc7a5ud569ub2c8ub2e4.";
+				INFOPLIST_KEY_NSSupportsLiveActivities = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UIBackgroundModes = (
+					"bluetooth-central",
+				);
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = simpletalk.ridepulse;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DE5490EB2F38CD23007E3B1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6Y5V6L2QYM;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = simpletalk.ridepulseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ridepulse.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ridepulse";
+				XROS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Debug;
+		};
+		DE5490EC2F38CD23007E3B1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6Y5V6L2QYM;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = simpletalk.ridepulseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ridepulse.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ridepulse";
+				XROS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Release;
+		};
+		DE5490EE2F38CD23007E3B1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6Y5V6L2QYM;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = simpletalk.ridepulseUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_TARGET_NAME = ridepulse;
+				XROS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Debug;
+		};
+		DE5490EF2F38CD23007E3B1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6Y5V6L2QYM;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = simpletalk.ridepulseUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_TARGET_NAME = ridepulse;
+				XROS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA000001AAAA000100000060 /* Build configuration list for PBXNativeTarget "RidePulseWidgetsExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA000001AAAA000100000050 /* Debug */,
+				AA000001AAAA000100000051 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE5490BB2F38CD22007E3B1A /* Build configuration list for PBXProject "ridepulse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE5490E52F38CD23007E3B1A /* Debug */,
+				DE5490E62F38CD23007E3B1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE5490E72F38CD23007E3B1A /* Build configuration list for PBXNativeTarget "ridepulse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE5490E82F38CD23007E3B1A /* Debug */,
+				DE5490E92F38CD23007E3B1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE5490EA2F38CD23007E3B1A /* Build configuration list for PBXNativeTarget "ridepulseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE5490EB2F38CD23007E3B1A /* Debug */,
+				DE5490EC2F38CD23007E3B1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE5490ED2F38CD23007E3B1A /* Build configuration list for PBXNativeTarget "ridepulseUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE5490EE2F38CD23007E3B1A /* Debug */,
+				DE5490EF2F38CD23007E3B1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DE5490B82F38CD22007E3B1A /* Project object */;
+}
